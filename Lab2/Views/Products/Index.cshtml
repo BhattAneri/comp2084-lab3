@@ -1,0 +1,11 @@
+﻿<div>
+<h2>List Of Products</h2>
+<ul>
+    @foreach (string pro in ViewBag.products)
+    {
+        <li>@Html.ActionLink(@pro, "Details", "Products")</li>
+       
+    }
+</ul>
+  </div>
+
