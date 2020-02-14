@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>To-Do List </title>
+      <link rel="stylesheet" href="main.css">
+    
+    </head>
+    <body>
+        <main>
+     <section class="container">
+         
+         <div>
+  
+  <h1>Aneri's To-do List</h1>
+  
+  
+  <label for="new-task"></label>
+  <input type="text" id="new-task" placeholder="Add New Task">
+    <button id="addTask" onclick ="playding()">Add Task</button>
+   <audio id="ding">
+      <source src="ding-sound-effect_2.mp3" type="audio/mpeg">
+      </audio>
+  </div>
+  
+  <div>
+  
+    <h2>Incomplete Tasks</h2>
+    <ul id="incompletetask">
+        <li type="none"><input type="checkbox" id="check" ><label>Grocery Shopping</label> <button class="delete">Delete</button></li>
+            <li type="none"><input type="checkbox"  id="check"><label>Pay Mobile Bills</label> <button class="delete">Delete</button></li> 
+            <li type="none"><input type="checkbox"  id="check"><label>Completeing Assignments</label>
+         <button class="delete">Delete</button></li> 
+            <li type="none"><input type="checkbox"  id="check"><label>Studying for Mid-Term</label>
+         <button class="delete">Delete</button></li>
+    </ul>
+  </div>
+  <div> 
+    <h2>Completed Tasks</h2>
+    <ul id="completedtask">
+            <li type="none"><input type="checkbox"  id="check"><label>Buy Dairy Products</label>
+        <button class="delete">Delete</button></li>
+    </ul>   
+  </div>
+</section>
+        </main>
+         <script type="text/javascript" src="main.js"></script>
+    </body>
